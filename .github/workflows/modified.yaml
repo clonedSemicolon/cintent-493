@@ -37,7 +37,7 @@ jobs:
           python-version: ${{ matrix.python-versions }}
 
       # CINTENT >> INSERT_CINTENT
-      - uses: JavidDitty/setup-cintent@main
+      - uses: clonedSemicolon/setup-cintent@main
         with:
           profiler: "setprofile"
 
